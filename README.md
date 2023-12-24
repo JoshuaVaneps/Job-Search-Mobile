@@ -1,11 +1,11 @@
 # Job Search Mobile Application
 
 ## Table of Contents
-1. [Introduction](Introduction)
-2. [Demo](Demo)
-3. [Features](Features)
-4. [Installation](Installation)
-5. [Credits](Credits)
+1. [Introduction](##Introduction)
+2. [Demo](##Demo)
+3. [Features](##Features)
+4. [Installation](##Installation)
+5. [Credits](##Credits)
 
 ## Introduction
 This is a job search application built using React Native, custom style sheets, and Expo. The application provides a seamless job searching experience, with a user-friendly interface and robust functionality.
