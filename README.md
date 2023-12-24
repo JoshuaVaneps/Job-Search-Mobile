@@ -2,13 +2,22 @@
 
 ## Table of Contents
 1. Introduction
-2. Features
-3. Installation
-4. Demo
+2. Demo
+3. Features
+4. Installation
 5. Credits
 
 ## Introduction
 This is a job search application built using React Native, custom style sheets, and Expo. The application provides a seamless job searching experience, with a user-friendly interface and robust functionality.
+
+## Demo
+To demo the application on your mobile device, follow these steps:
+1. Download the Expo Go app from your device's app store.
+2. Open the Expo Go app on your device.
+3. Scan the QR code or enter the URL provided below in the Expo Go app.
+
+Demo Link
+
 
 ## Features
 - **React Native**: The application is built using React Native, a popular framework for building mobile applications.
@@ -21,13 +30,7 @@ To install and run the application on your local machine, follow these steps:
 2. Install the necessary dependencies by running `npm install`.
 3. Start the application by running `npm start`.
 
-## Demo
-To demo the application on your mobile device, follow these steps:
-1. Download the Expo Go app from your device's app store.
-2. Open the Expo Go app on your device.
-3. Scan the QR code or enter the URL provided below in the Expo Go app.
 
-Demo Link: exp://u.expo.dev/update/0ed133d1-b27e-43c3-aa7b-ff018c9a4a5f
 
 ## Credits
 - **JSearch API**: The application uses the JSearch API from RapidAPI for fetching job listings.
