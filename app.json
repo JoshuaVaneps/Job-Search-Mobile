@@ -8,6 +8,24 @@
       "expo-router"
     ],
     "name": "Job-Search-Mobile",
-    "slug": "Job-Search-Mobile"
+    "slug": "Job-Search-Mobile",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ca5a84ee-c6a5-43c7-adf4-844efc6839f6"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ca5a84ee-c6a5-43c7-adf4-844efc6839f6"
+    },
+    "android": {},
+    "ios": {
+      "bundleIdentifier": "com.joshuavaneps.JobSearchMobile"
+    }
   }
 }

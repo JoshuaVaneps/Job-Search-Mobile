@@ -7,7 +7,7 @@ import {
   ActivityIndicator,
   Share,
 } from "react-native";
-import { useCallback, useState } from "react";
+import { useCallback, useState, useEffect } from "react";
 import { useRouter, Stack, useGlobalSearchParams } from "expo-router";
 import {
   Company,
@@ -20,7 +20,6 @@ import {
 
 import { COLORS, icons, SIZES } from "../../constants";
 import useFetch from "../../hook/useFetch";
-
 const tabs = ["About", "Qualifications", "Responsibilities"];
 
 const JobDetails = () => {
@@ -34,6 +33,11 @@ const JobDetails = () => {
   const [refreshing, setRefreshing] = useState(false);
   const [activeTab, setActiveTab] = useState(tabs[0]);
 
+  useEffect(() => {
+    // Add useEffect here
+    refetch();
+  }, [params.id]); // Add params.id as a dependency
+
   const onRefresh = useCallback(() => {
     setRefreshing(true);
     refetch();
@@ -45,12 +49,23 @@ const JobDetails = () => {
       case "Qualifications":
         return (
           <Specifics
-            title="Qualiffications"
-            points={data[0].job_highights?.qualifications ?? ["N/A"]}
+            title="Qualifications"
+            points={data[0].job_highlights?.Qualifications ?? ["N/A"]}
           />
         );
       case "About":
+        return (
+          <JobAbout
+            info={data[0].job_description ?? "no data provided by employer"}
+          />
+        );
       case "Responsibilities":
+        return (
+          <Specifics
+            title="Responsibilities"
+            points={data[0].job_highlights?.Responsibilities ?? ["N/A"]}
+          />
+        );
       default:
         break;
     }
@@ -132,6 +147,12 @@ const JobDetails = () => {
             </View>
           )}
         </ScrollView>
+        <JobFooter
+          url={
+            data[0]?.job_google_link ??
+            "https://careers.google.com/jobs/results/"
+          }
+        />
       </>
     </SafeAreaView>
   );

@@ -6,7 +6,7 @@ export const hardcodedData = [
     employer_website: null,
     employer_company_type: "Information",
     job_publisher: "LinkedIn",
-    job_id: "8yv3oA_2-UYAAAAAAAAAAA==",
+    job_id: 1,
     job_employment_type: "CONTRACTOR",
     job_title: "Web Developer - 6-month Contract - Houston Hybrid",
     job_apply_link:
@@ -79,7 +79,7 @@ export const hardcodedData = [
     employer_website: "http://www.schwab.com",
     employer_company_type: "Finance",
     job_publisher: "Schwab Jobs",
-    job_id: "G6qYxpAYyVsAAAAAAAAAAA==",
+    job_id: 2,
     job_employment_type: "FULLTIME",
     job_title: "Software Web Developer",
     job_apply_link:
@@ -151,7 +151,7 @@ export const hardcodedData = [
     employer_website: null,
     employer_company_type: null,
     job_publisher: "Recruit.net",
-    job_id: "tZ_zrHS5wN8AAAAAAAAAAA==",
+    job_id: 3,
     job_employment_type: "CONTRACTOR",
     job_title: "Web Developer",
     job_apply_link:
@@ -208,7 +208,7 @@ export const hardcodedData = [
     employer_website: "http://www.spurs.com",
     employer_company_type: "Consulting",
     job_publisher: "LinkedIn",
-    job_id: "UzcMt4Nb4qkAAAAAAAAAAA==",
+    job_id: 4,
     job_employment_type: "FULLTIME",
     job_title: "Senior Web Developer",
     job_apply_link:
@@ -291,7 +291,7 @@ export const hardcodedData = [
     employer_website: null,
     employer_company_type: null,
     job_publisher: "Talent.com",
-    job_id: "JviQ_0mnlXoAAAAAAAAAAA==",
+    job_id: 5,
     job_employment_type: "FULLTIME",
     job_title: "Web developer",
     job_apply_link: "https://www.talent.com/view?id=d9389c3c7cd3",
@@ -379,7 +379,7 @@ export const hardcodedData = [
     employer_website: null,
     employer_company_type: null,
     job_publisher: "LinkedIn",
-    job_id: "DCi-37AXFUgAAAAAAAAAAA==",
+    job_id: 6,
     job_employment_type: "FULLTIME",
     job_title: "Front End Web Developer",
     job_apply_link:
@@ -456,7 +456,7 @@ export const hardcodedData = [
     employer_website: null,
     employer_company_type: null,
     job_publisher: "Learn4Good",
-    job_id: "RmMWVIxJKacAAAAAAAAAAA==",
+    job_id: 7,
     job_employment_type: "FULLTIME",
     job_title: "Senior React Front-End Web Developer",
     job_apply_link:
@@ -563,7 +563,7 @@ export const hardcodedData = [
     employer_website: null,
     employer_company_type: null,
     job_publisher: "Dice",
-    job_id: "uSveAal9k1IAAAAAAAAAAA==",
+    job_id: 8,
     job_employment_type: "FULLTIME",
     job_title: "Front-End Developer (JavaScript, HTML, CSS)",
     job_apply_link:
@@ -645,7 +645,7 @@ export const hardcodedData = [
     employer_website: "http://www.xerox.com",
     employer_company_type: "Manufacturing",
     job_publisher: "Learn4Good",
-    job_id: "9gZFCv-muG4AAAAAAAAAAA==",
+    job_id: 9,
     job_employment_type: "FULLTIME",
     job_title: "Junior Full Stack Web Developer",
     job_apply_link:
@@ -733,7 +733,7 @@ export const hardcodedData = [
     employer_website: "https://www.att.com",
     employer_company_type: "Information",
     job_publisher: "ATT Jobs",
-    job_id: "1lr1uWOWY3MAAAAAAAAAAA==",
+    job_id: 10,
     job_employment_type: "FULLTIME",
     job_title: "Front End Developer",
     job_apply_link:
