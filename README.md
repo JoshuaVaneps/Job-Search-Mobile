@@ -1,11 +1,11 @@
 # Job Search Mobile Application
 
 ## Table of Contents
-1. Introduction
-2. Demo
-3. Features
-4. Installation
-5. Credits
+1. [Introduction](Introduction)
+2. [Demo](Demo)
+3. [Features](Features)
+4. [Installation](Installation)
+5. [Credits](Credits)
 
 ## Introduction
 This is a job search application built using React Native, custom style sheets, and Expo. The application provides a seamless job searching experience, with a user-friendly interface and robust functionality.
@@ -16,7 +16,8 @@ To demo the application on your mobile device, follow these steps:
 2. Open the Expo Go app on your device.
 3. Scan the QR code or enter the URL provided below in the Expo Go app.
 
-Demo Link
+IOS Demo Link: exp://u.expo.dev/update/0ed133d1-b27e-43c3-aa7b-ff018c9a4a5f
+Android Demo Link: exp://u.expo.dev/update/cf95a21c-166d-4556-a573-1cba54f23cc0
 
 
 ## Features
